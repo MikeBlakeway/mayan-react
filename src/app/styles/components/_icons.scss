@@ -1,0 +1,37 @@
+.icons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 7.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90vw;
+
+  &>img {
+    height: auto;
+    width: 9rem;
+    opacity: 0.2;
+    margin-bottom: 4rem;
+
+    &:not(last-child) {
+      margin-right: 4rem;
+    }
+  }
+
+  &--small {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    &>img {
+      height: auto;
+      width: 6rem;
+      opacity: 0.2;
+      margin-bottom: 2rem;
+
+      &:not(last-child) {
+        margin-right: 4rem;
+      }
+    }
+  }
+}

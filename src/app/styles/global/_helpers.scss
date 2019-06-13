@@ -1,0 +1,88 @@
+// =====> General Helper Classes <===== //
+
+.block {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.scroll {
+	background: #369ca12f;
+	transition: all 0.5s ease;
+}
+
+// =====> Text Align <===== //
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+// =====> Margin & Padding Helpers <===== //
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left {
+	margin-right: auto;
+}
+
+.right {
+	margin-left: auto;
+}
+
+// =====> Flexbox Helpers <===== //
+
+.flex {
+	display: flex;
+}
+
+.justify {
+	&__around {
+		justify-content: space-around;
+	}
+
+	&__between {
+		justify-content: space-between;
+	}
+
+	&__evenly {
+		justify-content: space-evenly;
+	}
+
+	&__center {
+		justify-content: center;
+	}
+}
+
+.align {
+	&__center {
+		align-items: center;
+	}
+
+	&__start {
+		align-items: flex-start;
+	}
+
+	&__end {
+		align-items: flex-end;
+	}
+}
