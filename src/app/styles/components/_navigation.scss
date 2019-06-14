@@ -3,7 +3,7 @@
     height: 5rem;
     fill: $teal;
     transform: translateY(150%);
-    animation: logo-color 0.95s cubic-bezier(0.68, -0.55, 0.265, 1.55) 3.4s forwards;
+    animation: logo-color 0.95s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s forwards;
     transition: all 0.35s ease-out;
 
     &-wrapper {
@@ -76,7 +76,7 @@
             height: 3px;
             width: 0;
             background-color: $teal;
-            animation: hamburgerEnter 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 3s forwards;
+            animation: hamburgerEnter 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s forwards;
 
             @media only screen and (max-width: 1200px) {
                 background-color: $teal;
@@ -99,12 +99,12 @@
 
             &::before {
                 top: 0;
-                animation: hamburgerEnterBefore 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 3.2s forwards;
+                animation: hamburgerEnterBefore 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s forwards;
             }
 
             &::after {
                 top: 0;
-                animation: hamburgerEnterAfter 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 3.2s forwards;
+                animation: hamburgerEnterAfter 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s forwards;
             }
         }
     }
