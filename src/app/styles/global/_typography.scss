@@ -21,9 +21,9 @@ h2 {
 
 h3 {
   font-family: $font-title;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   text-transform: capitalize;
-  color: $teal;
+  color: $red;
   letter-spacing: 1.2px;
   line-height: 2;
 }
@@ -45,6 +45,12 @@ small {
   line-height: 1.5;
 }
 
+p {
+  font-family: $font-body;
+  color: $dark;
+  line-height: 1.5;
+}
+
 // =====> Typography Styling Classes <===== //
 
 .lead {
@@ -60,11 +66,5 @@ small {
   font-family: $font-body;
   color: $dark;
   padding: 1.5rem 1rem;
-  line-height: 1.5;
-}
-
-p {
-  font-family: $font-body;
-  color: $dark;
   line-height: 1.5;
 }
