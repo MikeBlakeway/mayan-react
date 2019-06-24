@@ -63,51 +63,8 @@ export default function ServicesPage() {
         </Col>
       </Row>
       <Row center="xs" className="my-4">
-        {/* <Col xs={12} lg={8}> */}
         <SlickCarousel />
-        {/* </Col> */}
       </Row>
-      {/* <Row className="text-left p-1">
-        <Col xs={12} lg={6} className="feature package--price">
-          <div className="price--container">
-            <h3>BASIC WEBSITE PACKAGE</h3>
-            <span>from &pound;199</span>
-            <p>
-              This is the essentials of a website and nothing less. You get the
-              choice of a number of standard layouts, a brief design
-              consultation to confirm your branding and three pages. All designs
-              are fully mobile responsive as standard.
-            </p>
-            <h5>What’s included?</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-            </p>
-            <ul className="prices--included">
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
-              <li>Lorem ipsum dolor sit amet consectetur.</li>
-            </ul>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-            </p>
-          </div>
-
-          <div className="price--container">
-            <p className="feature--copy">static</p>
-          </div>
-          <div className="price--container">
-            <p className="feature--copy">dynamic</p>
-          </div>
-          <div className="price--container">
-            <p className="feature--copy">full stack</p>
-          </div>
-        </Col>
-      </Row> */}
     </Grid>
   );
 }
