@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Glyphs from "../../components/icons/Glyphs/Glyphs";
 import { Grid, Row, Col } from "react-flexbox-grid";
-import HeroButton from "../../components/utils/buttons/HeroButton";
+import HeroButton from "../../components/components/buttons/HeroButton";
 import * as PageIcon from "../../components/icons/PageIcons/PageIcons";
 
 export default class ServicesPage extends Component {

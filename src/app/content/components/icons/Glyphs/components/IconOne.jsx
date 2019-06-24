@@ -1,15 +1,15 @@
 import React from "react";
 
-export default function IconOne() {
+export default function IconOne({ ...props }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="126"
-      height="126"
-      viewBox="0 0 126 126"
       id="IconOne"
-      fill="#369BA1"
-      opacity=".3"
+      viewBox="0 0 125 125"
+      width={props.width || 125}
+      height={props.height || 125}
+      fill={props.fill || "#369BA1"}
+      opacity={props.opacity || 0.3}
     >
       <g>
         <g>

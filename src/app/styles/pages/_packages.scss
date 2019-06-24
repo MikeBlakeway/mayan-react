@@ -104,15 +104,22 @@
         font-size: 1.6rem;
         line-height: 1.5;
       }
-      .included {
-        padding: 2rem;
-        font-family: "Open Sans";
-        font-size: 1.5rem;
-        font-weight: 200;
-        line-height: 1.5;
-        letter-spacing: 0.5px;
-      }
     }
+  }
+}
+.included {
+  padding: 2rem;
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  &-list {
+    padding: 1.5rem;
+    font-family: $font-body;
+    font-size: 1.6rem;
+    line-height: 2;
+    letter-spacing: 0.25px;
   }
 }
 
@@ -138,6 +145,19 @@
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
+  }
+  &-title {
+    font-size: 2rem;
+    padding: 8rem 1rem 2.5rem;
+  }
+  &-subtitle {
+    color: $teal;
+    padding: 1rem;
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
   }
   svg,
   p,

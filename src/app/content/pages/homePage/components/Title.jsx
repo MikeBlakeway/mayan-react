@@ -1,5 +1,5 @@
 import React from "react";
-import HeroButton from "../../../components/utils/buttons/HeroButton";
+import HeroButton from "../../../components/components/buttons/HeroButton";
 
 export default function Title() {
   return (

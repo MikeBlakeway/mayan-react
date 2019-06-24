@@ -1336,3 +1336,37 @@
     display: none;
   }
 }
+
+// SlickCarousel Overides
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 4.5rem;
+  line-height: 1;
+  color: $teal;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @media only screen and (max-width: 575px) {
+    display: none;
+  }
+}
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+  height: 5rem;
+  width: 5rem;
+  transform: translateY(-100%);
+  cursor: pointer;
+}
+.slick-prev {
+  margin-left: -2rem;
+}
+.slick-next {
+  margin-right: -2rem;
+}
+
+.slick-slide > div {
+  padding: 0 3rem;
+}
