@@ -2,7 +2,7 @@
   "name": "mayan",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/MikeBlakeway/mayan_react",
+  "homepage": "https://mikeblakeway.github.io/mayan_react/",
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
     "dotenv": "^8.0.0",
