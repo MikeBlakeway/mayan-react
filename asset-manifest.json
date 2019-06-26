@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/MikeBlakeway/mayan_react/static/css/main.0f296880.chunk.css",
+    "main.js": "/MikeBlakeway/mayan_react/static/js/main.00082280.chunk.js",
+    "main.js.map": "/MikeBlakeway/mayan_react/static/js/main.00082280.chunk.js.map",
+    "runtime~main.js": "/MikeBlakeway/mayan_react/static/js/runtime~main.7e23c055.js",
+    "runtime~main.js.map": "/MikeBlakeway/mayan_react/static/js/runtime~main.7e23c055.js.map",
+    "static/css/2.92063656.chunk.css": "/MikeBlakeway/mayan_react/static/css/2.92063656.chunk.css",
+    "static/js/2.a47a104c.chunk.js": "/MikeBlakeway/mayan_react/static/js/2.a47a104c.chunk.js",
+    "static/js/2.a47a104c.chunk.js.map": "/MikeBlakeway/mayan_react/static/js/2.a47a104c.chunk.js.map",
+    "index.html": "/MikeBlakeway/mayan_react/index.html",
+    "precache-manifest.208fec95b8097f2f6ca4546dced70245.js": "/MikeBlakeway/mayan_react/precache-manifest.208fec95b8097f2f6ca4546dced70245.js",
+    "service-worker.js": "/MikeBlakeway/mayan_react/service-worker.js",
+    "static/css/2.92063656.chunk.css.map": "/MikeBlakeway/mayan_react/static/css/2.92063656.chunk.css.map",
+    "static/css/main.0f296880.chunk.css.map": "/MikeBlakeway/mayan_react/static/css/main.0f296880.chunk.css.map",
+    "static/media/slick-theme.scss": "/MikeBlakeway/mayan_react/static/media/slick.f97e3bbf.svg"
+  }
+}
