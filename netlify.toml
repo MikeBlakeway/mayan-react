@@ -1,0 +1,4 @@
+[build]
+base = "mayan/"
+publish = "mayan/build/"
+command = "npm run build"
