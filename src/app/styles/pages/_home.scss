@@ -1,0 +1,228 @@
+// =====> HOMEPAGE STYLES <===== //
+
+// --- ELEMENTS --- //
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+// --- CLASSES ---//
+
+.hero {
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+
+  &--image {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  &--title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media only screen and (min-width: $breakpoint-med) {
+      transform: translateY(-65%);
+    }
+
+    h1 {
+      color: $red;
+      font-size: 12rem;
+      font-family: $font-title;
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+      line-height: 1.5;
+      width: 100%;
+      margin: 0;
+    }
+
+    h3 {
+      color: $dark;
+      font-size: 2.2rem;
+      font-family: $font-title;
+      font-weight: 600;
+      width: 65%;
+      margin-bottom: 2rem;
+      line-height: 1.7;
+    }
+
+    small {
+      color: $dark;
+      font-size: 1.6rem;
+      line-height: 1.6;
+      display: block;
+      width: 65%;
+    }
+
+    @media only screen and (max-width: $breakpoint-small) {
+      width: 100%;
+      padding-left: 4rem;
+
+      h1 {
+        font-size: 6rem;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 2.2rem;
+        margin: 1.5rem 0;
+      }
+
+      small {
+        font-size: 1.6rem;
+        margin: 0;
+      }
+    }
+
+    @media only screen and (min-width: $breakpoint-large) {
+      width: 80%;
+      max-width: 140rem;
+    }
+  }
+
+  &--button {
+    width: 40rem;
+    position: relative;
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+
+    .arrow-right>span,
+    .arrow-right>span::before,
+    .arrow-right>span::after {
+      background: $red;
+    }
+
+    button {
+      font-size: 1.8rem;
+      font-family: $font-title;
+      font-weight: 700;
+      background-color: transparent;
+      border: none;
+      text-align: left;
+      cursor: pointer;
+      transition: color 0.25s ease-in;
+
+      a {
+        color: $red;
+      }
+
+      &:hover a {
+        transition: color 0.25s ease-in;
+        color: $teal;
+      }
+    }
+
+    &:hover .arrow-right>span {
+      background: $teal;
+      width: 12rem;
+      transition: all 0.25s ease-in;
+
+      &::before,
+      &::after {
+        background: $teal;
+        transition: all 0.25s ease-in;
+      }
+    }
+  }
+}
+
+.arrow-right {
+  margin-left: 1rem;
+  display: inline-flex;
+
+  span {
+    position: relative;
+    width: 5rem;
+    height: 2px;
+    border-radius: 2px;
+    background: #000;
+    transition: all 0.25s ease-out;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 2px;
+      width: 1.5rem;
+      border-radius: 2px;
+      background: $black;
+      transition: all 0.25s ease-out;
+    }
+
+    &::after {
+      transform-origin: right bottom;
+      transform: rotate(-40deg);
+    }
+
+    &::before {
+      transform-origin: right top;
+      transform: rotate(40deg);
+    }
+  }
+}
+
+// --- ID'S --- //
+
+#rocket-image {
+  height: calc(100% - 150px);
+  position: absolute;
+  right: 0;
+  top: 150px;
+
+  @media only screen and (max-width: 720px) {
+    top: 55%;
+    height: 45%;
+    // right: -10%;
+  }
+
+  @media only screen and (min-width: $breakpoint-med) and (max-width: $breakpoint-large) {
+    top: 40%;
+    height: 60%;
+    right: 0;
+  }
+
+  @media only screen and (min-width: 960px) and (max-width: 1024px) {
+    top: 40%;
+    height: 60%;
+    right: 0;
+  }
+}
+
+#flame {
+  animation: flames 0.06s alternate infinite ease;
+}
+
+#rocket {
+  animation: flames 1s alternate infinite ease-in-out;
+  transform-origin: top;
+}
+
+#trail-back {
+  animation: trail 1.05s alternate infinite ease-in-out;
+  transform-origin: top;
+}
+
+#smoke-front {
+  animation: smoke 0.2s alternate infinite ease-in-out;
+  transform-origin: top;
+}
+
+#smoke--back {
+  animation: smoke 0.4s alternate infinite ease-in-out;
+  transform-origin: top;
+}
