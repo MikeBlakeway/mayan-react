@@ -9,21 +9,26 @@
 /coverage
 
 # production
-
+/build
 
 # misc
-.vscode
 .DS_Store
 .env
-sendgrid.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+<<<<<<< HEAD
 .eslintrc
 .prettierrc
+=======
+sendgrid.env
+>>>>>>> af64b3fd93c99f973fe58780f01b2e26b3edc3e0
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 sendgrid.env
+=======
+>>>>>>> af64b3fd93c99f973fe58780f01b2e26b3edc3e0
