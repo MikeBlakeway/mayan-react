@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mayan_react/static/css/main.0f296880.chunk.css",
-    "main.js": "/mayan_react/static/js/main.9759580e.chunk.js",
-    "main.js.map": "/mayan_react/static/js/main.9759580e.chunk.js.map",
-    "runtime~main.js": "/mayan_react/static/js/runtime~main.6f2fbf61.js",
-    "runtime~main.js.map": "/mayan_react/static/js/runtime~main.6f2fbf61.js.map",
-    "static/css/2.e53c13c6.chunk.css": "/mayan_react/static/css/2.e53c13c6.chunk.css",
-    "static/js/2.9e2a439a.chunk.js": "/mayan_react/static/js/2.9e2a439a.chunk.js",
-    "static/js/2.9e2a439a.chunk.js.map": "/mayan_react/static/js/2.9e2a439a.chunk.js.map",
-    "index.html": "/mayan_react/index.html",
-    "precache-manifest.8f70f5d980eac886cb3f962a102e17fb.js": "/mayan_react/precache-manifest.8f70f5d980eac886cb3f962a102e17fb.js",
-    "service-worker.js": "/mayan_react/service-worker.js",
-    "static/css/2.e53c13c6.chunk.css.map": "/mayan_react/static/css/2.e53c13c6.chunk.css.map",
-    "static/css/main.0f296880.chunk.css.map": "/mayan_react/static/css/main.0f296880.chunk.css.map",
-    "static/media/slick-theme.scss": "/mayan_react/static/media/slick.f97e3bbf.svg"
+    "main.css": "/static/css/main.bb391117.chunk.css",
+    "main.js": "/static/js/main.86d0137f.chunk.js",
+    "main.js.map": "/static/js/main.86d0137f.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.e2e24bd7.chunk.css": "/static/css/2.e2e24bd7.chunk.css",
+    "static/js/2.85407526.chunk.js": "/static/js/2.85407526.chunk.js",
+    "static/js/2.85407526.chunk.js.map": "/static/js/2.85407526.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.55e4a8057ccb1164baac31e4dd1d090f.js": "/precache-manifest.55e4a8057ccb1164baac31e4dd1d090f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e2e24bd7.chunk.css.map": "/static/css/2.e2e24bd7.chunk.css.map",
+    "static/css/main.bb391117.chunk.css.map": "/static/css/main.bb391117.chunk.css.map",
+    "static/media/slick-theme.scss": "/static/media/slick.f97e3bbf.svg"
   }
 }
