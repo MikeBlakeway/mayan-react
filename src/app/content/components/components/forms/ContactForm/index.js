@@ -10,7 +10,7 @@ export default class ContactForm extends Component {
   }
 }
 const sendGrid = require("@sendgrid/mail");
-sendGrid.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
+sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
 
 const InnerForm = props => {
   const { values, errors, touched, isSubmitting, handleSubmit } = props;
@@ -61,7 +61,7 @@ const InnerForm = props => {
       <div className="field-container">
         <Field type="tel" name="phone" required />
         <label htmlFor="phone" className="label-name">
-          <span className="content-name">{process.env.NODE_ENV}</span>
+          <span className="content-name">Phone</span>
         </label>
         {touched.phone && errors.phone && (
           <div className="error-message">{errors.phone}</div>
