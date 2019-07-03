@@ -1,12 +1,6 @@
-import React from 'react'
-import Slider from './components/Slider'
-import Rocket from './components/Rocket';
+import React from "react";
+import Lavalamp from "./components/Lavalamp";
 
 export default function Hero() {
-    return (
-        <div className="hero--image">
-            <Slider />
-            <Rocket />
-        </div>
-    )
+  return <Lavalamp />;
 }

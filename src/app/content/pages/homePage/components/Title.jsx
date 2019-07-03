@@ -1,17 +1,15 @@
 import React from "react";
 import HeroButton from "../../../components/components/buttons/HeroButton";
-
+import Glyphs from "../../../components/icons/Glyphs/Glyphs";
 export default function Title() {
   return (
     <div className="hero--title">
-      <h1>Let's Go!</h1>
-      <h3>Custom Built Websites for SME's &amp; Sole Traders</h3>
-      <small>
-        With so much of today’s modern technology ruling the smallest details of
-        our lives, getting your website and digital strategy right is just too
-        important to be done in half measures.
-      </small>
-      <HeroButton linkTo="/about" content="Ok, I'm Ready!" />
+      <Glyphs type="hero--glyphs" />
+      <h1>MAYAN</h1>
+      <h3>Website Design &amp; Development Studio</h3>
+      <small>Bespoke Online Solutions For SME’s &amp; Sole Traders</small>
+
+      <HeroButton linkTo="/about" content="Let's Go" />
     </div>
   );
 }
