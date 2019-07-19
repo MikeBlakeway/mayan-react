@@ -14,20 +14,26 @@ body {
 .hero {
   height: 100vh;
   max-height: 100vh;
-  margin: auto;
   overflow: hidden;
   position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   &--glyphs {
     text-align: center;
+
     svg {
       margin: 0 1.5rem;
       height: 9.5rem;
+
       @media only screen and (max-width: $breakpoint-small) {
         margin: 0 0.25rem;
         height: 7.5rem;
       }
-    }
-  }
+    } // END svg
+  } // END hero--glyphs
 
   &--image {
     position: relative;
@@ -37,16 +43,10 @@ body {
   }
 
   &--title {
-    position: absolute;
-    top: 50%;
-    right: 0;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-
-    @media only screen and (min-width: $breakpoint-med) {
-      transform: translate(-50%, -60%);
-    }
+    z-index: 0;
 
     h1 {
       color: $red;
@@ -54,7 +54,6 @@ body {
       font-family: $font-title;
       text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
       line-height: 1.5;
-      // width: 100%;
       margin: 0;
     }
 
@@ -63,7 +62,6 @@ body {
       font-size: 2.2rem;
       font-family: $font-title;
       font-weight: 600;
-      // width: 65%;
       margin-bottom: 2rem;
       line-height: 1.7;
     }
@@ -73,18 +71,10 @@ body {
       font-size: 1.6rem;
       line-height: 1.6;
       display: block;
-      // width: 65%;
     }
 
+    // MEDIA QUERIES ==> .hero--title
     @media only screen and (max-width: $breakpoint-small) {
-      width: 100%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      padding: 0 4rem;
-
       h1 {
         font-size: 10rem;
         margin: 0;
@@ -102,9 +92,6 @@ body {
     }
 
     @media only screen and (min-width: $breakpoint-large) {
-      transform: translateY(-60%);
-      text-align: center;
-      margin-right: 30%;
       h1 {
         font-size: 15rem;
         line-height: 1.3;
@@ -114,7 +101,7 @@ body {
         line-height: 1.5;
       }
     }
-  }
+  } // END .hero--title
 
   &--button {
     width: 40rem;
@@ -149,7 +136,7 @@ body {
         transition: color 0.25s ease-in;
         color: $teal;
       }
-    }
+    } // END .hero--button button
 
     &:hover .arrow-right > span {
       background: $teal;
@@ -162,8 +149,8 @@ body {
         transition: all 0.25s ease-in;
       }
     }
-  }
-}
+  } // END .hero--button
+} // END .hero
 
 .arrow-right {
   margin-left: 1rem;
@@ -200,15 +187,26 @@ body {
       transform: rotate(40deg);
     }
   }
-}
+} // END .arrow-right
 
 // --- ID'S --- //
 
-#lavaLamp {
-  min-height: 150vh;
-  height: 200%;
-  width: 100%;
+// #lavaLamp {
+//   min-height: 150vh;
+//   height: 200%;
+//   width: 100%;
+//   position: absolute;
+//   left: -20%;
+//   bottom: -25%;
+// }
+
+canvas {
   position: absolute;
-  left: -20%;
-  bottom: -25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
 }

@@ -8,7 +8,7 @@ export default class ServicesPage extends Component {
   render() {
     return (
       <Grid id="services">
-        <Glyphs />
+        <Glyphs type="icons-container" />
         <Row>
           <small className="text-center block mt-3 mb-1">MAYAN STUDIO</small>
           <h1 className="text-center block mb-2">
